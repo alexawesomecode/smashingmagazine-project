@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    height: 150px;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    list-style: none;
+}
+
+ul>li {
+    flex: 1;
+    border: 1px solid red;
+}
+
+ul li:first-child {
+    flex: 1.5;
+}
+
+.latest-articles {
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+}
+
+.latest-articles>div {
+    width: 50%;
+    border: 1px solid rebeccapurple;
+}
+
+.cards {
+    width: 50%;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
