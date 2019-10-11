@@ -17,6 +17,12 @@ nav {
     color: white;
 }
 
+.item h5 {
+    font-size: 31px;
+    color: white;
+    font-weight: bold;
+}
+
 .logo {
     height: 100%;
     width: 20%;
@@ -37,6 +43,12 @@ nav {
     width: 100%;
     margin-top: 1rem;
     margin-left: 6px;
+    text-align: center;
+    padding: 7px;
+}
+
+.item>* {
+    padding-bottom: 2px;
 }
 
 .item :hover {
@@ -45,7 +57,7 @@ nav {
 }
 
 .item img {
-    width: 28%;
+    width: 37px;
     margin-left: 10px;
 }
 
@@ -56,13 +68,14 @@ nav {
 .topics {
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
-.topics h1 {
+.topics h5 {
     border: 2px solid white;
     border-radius: 10px;
     padding: 6px;
+    font-size: 25px;
 }
 
 .topics :hover {
@@ -78,6 +91,18 @@ ul li:first-child {
     flex: 1.5;
 }
 
+.latest-absolute {
+    position: absolute;
+    left: 32%;
+    margin-top: 25px;
+    padding: 8px;
+    font-size: 27px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    background: white;
+}
+
 .latest-articles {
     display: flex;
     flex-wrap: wrap;
@@ -85,8 +110,9 @@ ul li:first-child {
 
 .front-article {
     width: 50%;
-    border: 1px solid #858586;
+    border: 1px solid #de4444;
     background: #d3382c;
+    padding: 11px;
 }
 
 .cards {
@@ -107,12 +133,11 @@ ul li:first-child {
     border-radius: 6px;
     transform: rotate(-14deg);
     margin-left: 3rem;
-    
 }
 
-.author-info img:hover{
+.author-info img:hover {
     transform: rotate(0deg);
-    cursor: pointer;   
+    cursor: pointer;
 }
 
 .author-info p {
@@ -121,7 +146,7 @@ ul li:first-child {
     font-size: 26px;
 }
 
-.author-info span{
+.author-info span {
     margin-top: 1rem;
     color: #e6e6e6;
     font-size: 18px;
@@ -131,10 +156,9 @@ ul li:first-child {
     color: #ffffff;
     padding-left: 3rem;
     margin-top: 1.5rem
-
 }
 
-.description :hover{
+.description :hover {
     cursor: pointer;
 }
 
@@ -165,9 +189,9 @@ ul li:first-child {
     margin-top: 3rem;
 }
 
-.direction img{
+.direction img {
     width: 100%;
-    height: 90%;
+    height: 38%;
 }
 
 .direction img:hover {
@@ -225,9 +249,9 @@ ul li:first-child {
     margin-top: 3rem;
 }
 
-.arrow-dir img{
+.arrow-dir img {
     width: 100%;
-    height: 90%;
+    height: 39%;
 }
 
 .arrow-dir img:hover {
@@ -257,16 +281,16 @@ ul li:first-child {
     margin-left: 3rem;
 }
 
-.image img:hover{
+.image img:hover {
     transform: rotate(0deg);
-    cursor: pointer;   
+    cursor: pointer;
 }
 
 .achiv-container {
     padding-left: 1rem;
 }
 
-.achiv-container h4{
+.achiv-container h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
 }
@@ -276,7 +300,6 @@ ul li:first-child {
     margin-right: 6rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 .other-members {
     display: flex;
@@ -292,16 +315,17 @@ ul li:first-child {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.img-other img{
+
+.img-other img {
     width: 90%;
     border: 5px solid #a81616;
     border-radius: 12px;
     transform: rotate(-14deg);
 }
 
-.img-other img:hover{
+.img-other img:hover {
     transform: rotate(0deg);
-    cursor: pointer;   
+    cursor: pointer;
 }
 
 .dis-other h4 {
@@ -323,4 +347,306 @@ ul li:first-child {
 
 .dis-other span {
     font-size: 12px;
+}
+
+
+/* *** */
+
+
+/* ---------- */
+
+h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;
+    padding: 31px 0 15px;
+}
+
+#three-articles {
+    display: flex;
+}
+
+#three-articles>* {
+    flex: 1;
+}
+
+#smashing-tv {
+    display: flex;
+    padding: 0 20px 0 20px;
+}
+
+#smashing-tv article {
+    width: 40%;
+}
+
+#smashing-tv .news-tv {
+    height: 589px;
+    color: white;
+}
+
+.news-tv>* {
+    padding: 10px 10px 30px 10px;
+}
+
+#book,
+#members p {
+    color: white;
+    font-size: 21px;
+    padding: 40px 0 40px 0;
+}
+
+#guides {
+    display: flex;
+}
+
+#guides-newsletter {
+    display: flex;
+}
+
+#guides-newsletter p {
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    padding: 30px;
+}
+
+.p-subtext {
+    font-size: 16px;
+}
+
+.members {
+    display: flex;
+}
+
+.fauna {
+    height: 270px;
+    width: 50%;
+    padding: 48px;
+    margin: 40px 20px;
+    border-radius: 4%;
+    background: blue;
+    text-align: center;
+}
+
+.fauna img {
+    width: 100%;
+}
+
+.smashing-members {
+    background: grey;
+    border-radius: 40px;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.smashing-members img {
+    width: 33%;
+    margin: 0 auto;
+    display: flex;
+    padding: 33px;
+}
+
+.smashing-members button {
+    height: 50px;
+}
+
+section {
+    width: 100%;
+    padding: 0 0 80px 0;
+    background: whitesmoke;
+}
+
+.book {
+    display: flex;
+    height: 450px;
+    background: #d33a2c;
+    padding: 60px 72px;
+}
+
+.book img {
+    height: 342px;
+}
+
+.book-presentation>h1 {
+    padding: 7px 0 20px;
+    text-align: left;
+    line-height: 35px;
+}
+
+.book-presentation>p {
+    padding: 7px 0 20px;
+    text-align: left;
+    line-height: 35px;
+}
+
+.book span {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.book button {
+    height: 59px;
+    border-radius: 5%;
+    margin-top: 22px;
+}
+
+.book-icon {
+    flex: 0.5;
+}
+
+.guides {
+    flex: 1;
+    padding: 30px;
+    background: whitesmoke;
+    height: 667px;
+}
+
+.guides:nth-child(2) {
+    background: white;
+}
+
+.guides span {
+    font-size: 15px;
+    color: gray;
+    padding-left: 23px;
+    margin-top: 21px;
+    display: inline-flex;
+}
+
+.guides h1 {
+    font-size: 35px;
+    padding: 3px 0 28px 20px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.guides ul>li {
+    border: none;
+    list-style: palegreen;
+    font-size: 23px;
+    color: #006fc6;
+    padding-bottom: 23px;
+    margin-left: 75px;
+    text-decoration: underline;
+}
+
+.newsletter {
+    flex: 2;
+    background: darkgray;
+    border-radius: 40px;
+    height: 86%;
+}
+
+.newsletter p {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.subscribe-email {
+    display: flex;
+    width: 54%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.newsletter input {
+    line-height: 40px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+button {
+    background: white;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0 19px;
+}
+
+.newsletter img {
+    width: 51%;
+    margin: 0 auto;
+    display: flex;
+    padding: 33px;
+}
+
+#guides-newsletter {
+    height: 1000px;
+    background: whitesmoke;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#guides-newsletter .guides {
+    height: 100%;
+}
+
+footer {
+    height: 700px;
+    background-color: #d33a2c;
+    text-align: center;
+    padding: 36px;
+    color: white;
+}
+
+.last-footer {
+    text-align: center;
+}
+
+.cloud {
+    width: 100%;
+    height: 60%;
+}
+
+.cloud span:last-child {
+    display: inline-flex;
+    text-align: center;
+    width: 33%;
+    padding-top: 22px;
+}
+
+.cloud ul {
+    font-size: 26px;
+    padding: 20px 10px;
+    width: 83%;
+    margin: 0 auto;
+}
+
+.cloud li {
+    display: inline-flex;
+    border: none;
+    margin-right: 5px;
+    padding: 8px;
+}
+
+.last-footer {
+    display: flex;
+}
+
+.last-footer-col {
+    flex: 1;
+}
+
+.last-footer-col ul {
+    font-size: 17px;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+.last-footer li {
+    display: inline-flex;
+    border: none;
+    margin: 0 10px 8px 0;
+    padding: 6px;
+    background: rebeccapurple;
+}
+
+.last-footer-col img {
+    width: 220px;
 }
