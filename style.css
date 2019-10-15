@@ -10,6 +10,11 @@
   box-sizing: border-box;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 nav {
   display: flex;
   height: 150px;
@@ -390,7 +395,9 @@ ul li:first-child {
   font-size: 12px;
 }
 
+
 /* *** */
+
 
 /* ---------- */
 
